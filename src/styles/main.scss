@@ -1,6 +1,7 @@
 @use '_hero.scss';
 @use 'components/infos';
 @use 'components/buttons';
+@use 'components/event';
 
 * {
     margin: 0;
@@ -16,10 +17,10 @@
     width: 100%;
     margin: 0 auto;
 
-    @media (max-widht: 640px) {
+    @media (max-width: 640px) {
         max-width: 80%;
     }
-    @media (max-widht: 1024px) {
+    @media (max-width: 1024px) {
         max-width: 90%;
     }   
 }
